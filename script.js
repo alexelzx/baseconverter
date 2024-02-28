@@ -18,7 +18,7 @@ function convertNumber() {
   
 
   document.getElementById("decimalResult").textContent = "Decimal: " + decimalResult;
-  document.getElementById("binaryResult").textContent = "Binary: " + binaryResult;
+  document.getElementById("binaryResult").textContent = "Binaire: " + binaryResult;
   document.getElementById("octalResult").textContent = "Octal: " +  octalResult;
   document.getElementById("hexadecimalResult").textContent = "Hexadecimal: " + hexResult;
 }
