@@ -10,7 +10,27 @@
   <div class="container">
   <h1>Convertisseur de bases</h1>
   <input type="number" id="inputNumber" placeholder="Saisir nombre/chiffre">
-  <button onclick="convertNumber()">Convert</button>
+  <button class="cssbuttons-io-button" onclick="convertNumber()">
+  Convertir
+  <div class="icon">
+   <svg
+    height="24"
+    width="24"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+   >
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path
+      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+      fill="currentColor"
+    ></path>
+   </svg>
+  </div>
+</button>
+
+<input id="switch" type="checkbox">
+<div class="app">
+ </div>
 
   <div class="background-text"> 
     <div class="title">convB+</div> 
@@ -24,10 +44,35 @@
     <p id="octalResult"></p> 
     <p id="hexadecimalResult"></p> 
   </div> 
+  
+  <div class="card">
+  <p class="heading">
+    Avez vous besoin d'aide?
+  </p>
+  <p>
+    Simplement écrivez le nombre/chiffre désiré a convertir, puis, cliquez sur "Convertir".
+  </p>
+  <p>- alexelzx
+</p></div>
+
 </div>
   </div>
 
   <script src="script.js"></script>
+  
+<div id="loader-wrapper">
+  <div class="cube-loader">
+    <div class="cube-top"></div>
+    <div class="cube-wrapper">
+      <span style="--i:0" class="cube-span"></span>
+      <span style="--i:1" class="cube-span"></span>
+      <span style="--i:2" class="cube-span"></span>
+      <span style="--i:3" class="cube-span"></span>
+    </div>
+  </div>
+</div>
+
+</div>
+
 </body>
 </html>
-
